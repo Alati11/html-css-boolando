@@ -29,7 +29,7 @@ a {
     padding: 10px;
 }
 
-.img {
+img {
     max-width: 100%;
 }
 .section{
@@ -46,8 +46,13 @@ a {
 	flex-wrap: wrap;
 }
 
+.row > [class^='col'] {
+	padding: 20px;
+}
+
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
+   
 }
 
 .card-image {
@@ -85,9 +90,7 @@ a {
     height: 25px;
     /* position: absolute;
     bottom: 100px;
-    left: 45px; */
-    
-
+    left: 45px; */  
 }
 .badge {
     position: absolute;
@@ -96,6 +99,7 @@ a {
     
 
 }
-/* .card-image:hover {
-	opacity: 1;
-} */
+.card-image:hover {
+    opacity: 100;
+	background-image: url(../img/1b.webp);
+} 
