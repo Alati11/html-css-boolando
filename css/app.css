@@ -45,9 +45,11 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
+
 .card-image {
     position: relative;
 }
@@ -59,7 +61,7 @@ a {
     padding: 10px;
 	display: block;
 	text-align: center;
-	font-size: 32px;
+	font-size: 32px;    
 	color: black;
     background-color: white;
 }
@@ -69,19 +71,31 @@ a {
     background-color: red;
     padding: 5px;
     font-size: 15px;
-    position: absolute;
-    bottom: 50px;
-    left: 0;
     height: 25px;
+    /* position: absolute;
+    bottom: 100px;
+    left: 0; */
+    
 }
 
-.sostenibilità-green {
+.sustainability-green {
     color: white;
     background-color: green;
-    position: absolute;
-    bottom: 50px;
-    left: 45px;
     padding: 5px;
     height: 25px;
+    /* position: absolute;
+    bottom: 100px;
+    left: 45px; */
+    
 
 }
+.badge {
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    
+
+}
+/* .card-image:hover {
+	opacity: 1;
+} */
